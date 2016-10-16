@@ -16,8 +16,6 @@ public class FixDebugSixteen1 extends JPanel
     public void paintComponent(Graphics gr)
     {
         super.paintComponent(gr);
-        // Need to decrement the 'corner' dimension to create the bullseye shape
-        // instead of the cone
         for(corner = 150, radius = 2; radius < 200; radius += 6, corner -= 3)
         {
             if(radius < 50)
